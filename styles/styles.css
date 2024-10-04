@@ -8,7 +8,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   display: grid;
-  grid-template-rows: repeat(4, 100vh);
+  grid-template-rows: 100vh 100vh 100vh 100vh 50vh 1fr;
 }
 
 h1, h2, h3 {
@@ -22,8 +22,19 @@ p {
 .clipboard-home {
   background-image: url(/clipboard-landing-page/images/bg-header-desktop.png);
   background-repeat: no-repeat;
-
   text-align: center;
+  width: 100%;
+  padding: 100px;
+}
+
+.copy {
+  padding: 25px;
+}
+
+.selection {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .attribution { 
